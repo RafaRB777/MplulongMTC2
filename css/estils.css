@@ -1,0 +1,185 @@
+/* Color de fondo uniforme en toda(s) la(s) página(s) excepto blog: */ 
+body {
+    background: linear-gradient(to right,rgb(185, 200, 248),rgb(97, 147, 102),rgb(97, 147, 102),rgb(223, 254, 108), rgb(97, 147, 102),rgb(97, 147, 102), rgb(185, 200, 248));
+    color: rgb(100, 100, 100);
+    font-weight: bolder;
+}
+
+/* Ajustos fons página blog: */
+#blogg {
+    background: linear-gradient(to right,rgb(185, 200, 248),rgb(97, 147, 102),rgb(223, 254, 108),rgb(223, 254, 108), rgb(223, 254, 108),rgb(97, 147, 102), rgb(185, 200, 248));
+}
+
+/* Ajustos fons formularis: */
+.modal-header, .modal-body {
+    font-weight: 400; 
+    background:rgb(159, 255, 229);
+}
+
+/* Índice flexible: */
+article {
+    width: 100%;
+    margin-left: auto;
+    margin-top: auto;
+    padding: 2rem;
+}
+
+/* imágenes flexibles: */
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ajustos tipografía: */
+h1 h2 h3 h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(1.425rem + 0.9vw);
+}
+a, p {
+    font-family: 'Lora', serif;
+    color: rgb(21, 46, 0);
+    text-decoration: none;
+}
+a:hover, p:hover {
+    color: rgb(0, 0, 0);
+    /* font-weight: bolder; */
+}
+#pagina_pp div p{
+    color: rgb(0, 0, 0);
+}
+#pagina_pc div p{
+    color: rgb(0, 0, 0);
+}
+section {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+
+/* Menú de navegació */
+#menu {
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu a {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(33, 33, 33);
+    /* font-weight: bolder; */
+}
+#menu a:hover {
+    color: rgb(19, 19, 19);
+    /* font-size: 1.25rem; */
+    font-weight: bolder;
+}
+.navbar-expand-md {
+    text-align: left;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0.1);
+}
+.navbar-expand-md:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+/* Ajustos tarjetes: */
+.card {
+    border: none;
+}
+.card-footer {
+    border: none;
+    background-color: inherit;
+}
+#videos {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Ajustos botons: */
+.btn-custom {
+    color: #fff;
+    background-color: #000;
+}
+.btn-custom:hover {
+    color: #fff;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* Ajustos Footer: */
+.mplulong {
+color: rgb(63, 63, 63);
+font-weight: 400;
+}
+footer a {
+    color: rgb(0, 78, 1);
+}
+footer a:hover {  
+    font-weight: bolder;
+    color: rgb(39, 39, 39);
+    text-decoration: none;
+    /* font-size: 0.9rem; */
+}
+footer span:hover {  
+    color: rgb(13, 131, 0);
+}
+footer ul {
+    list-style-type: none;
+
+}
+footer li, p{
+    padding: 0px 6px 5px 6px ;
+    /* font-size: 0.8rem; */
+}
+
+/* Ajustos per dispositius diferents al mòbil: */
+
+@media (min-width: 575.98px) {
+
+    footer ul li {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+@media (min-width: 767.98px) {
+    footer li {
+        display: inline-flex;
+    }
+    h2{
+        font-size: 1.7rem;
+    }
+    .nav-item {
+        padding-left: 2.5rem;
+    }
+}
+@media (min-width: 1199.98px) {
+    h2 {
+        font-size: 2rem;
+    }
+    .nav-item {
+        padding-left: 5rem;
+    }
+    footer ul li {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
